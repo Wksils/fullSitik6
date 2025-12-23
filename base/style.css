@@ -51,12 +51,17 @@ nav a{
     text-decoration: none;
     color: #A5A5A5;
 }
+nav a:hover, .fspisok a:hover{
+    color: #575757;
+}
+button, a{cursor: pointer;}
 nav button, .RS{
     font-size: 1.3rem;
     width: 10.77em;
     height: 3.1em;
     border-radius: 1.875rem;
     background-color: #F4C73F;
+    border:none;
 }
 
 .s1{
@@ -94,7 +99,7 @@ p{
     color: #444444;
     font-size: 1.3rem;
     border-radius: 1.875rem;
-    width: 9rem;
+    width: 9em;
     height: 3.1em;
 }
 .s1cont img{
@@ -103,9 +108,7 @@ p{
 }
 
 .section2{
-    background-image: url(kartinki/AboutUs.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #01101D;
     width: 100vw;
     min-height: 100vh;
     display: flex;
@@ -118,10 +121,12 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .s2L{
     width: 27rem;
-    height: 60.75rem;
+    height: auto;
+    align-self: flex-start;
     color: white;
 }
 .s2L h3{
@@ -185,4 +190,648 @@ p{
     width: 53%;
     height: 65%;
     border-radius: 20px;
+}
+.section3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.s3top, .s6top{
+    width: 80rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.s3top h2, .s6top h2{font-size: 5rem; font-weight: normal;}
+.s3top p{
+    color: #444444;
+    font-size: 1.9rem;
+}
+.vetka{transform: scaleX(-1);}
+.s3top img, .s6top img{
+    width: 10vw;
+    height: auto;
+}
+.edaMenu{
+    width: 95rem;
+    max-height: 50.625rem;
+    height: 40.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    width:47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.eda{
+    width: 43.2rem;
+    height: 12.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eda img{
+    width: auto;
+    height: 100%;
+}
+.oda{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ogo{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    width: 12rem;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ogo p{
+    font-size: 1.6rem;
+    color: #151515;
+}
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.namePrice h3{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.namePrice div{
+    background-color: #EDEDED;
+    height: 2px;
+    width: 25%;
+}
+.oda p{
+    color: #575757;
+    font-size: 1.6rem;
+}
+.section4{
+    width: 100vw;
+    height: 100vh;
+    background-color: #01101D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s4cont{
+    width: 102rem;
+    height: 54.25rem;
+    max-height: 63.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.s4top{
+    color: #FDFDFD;
+    text-align: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 18%;
+}
+.s4top h2{font-size: 4.5rem; font-weight: normal;}
+.s4top p{font-size: 1.6rem;}
+.cards{
+    width: 100%;
+    height: 36.125rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card1, .card2, .card3{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.875rem;
+}
+.card1{background-image: url(kartinki/eda14.png);}
+.card2{background-image: url(kartinki/eda24.png);}
+.card3{background-image: url(kartinki/eda34.png);}
+.tt{
+    width: 90%;
+    height: 15rem;
+    background-color: #FDFDFD;
+    border-radius: 1.875rem;
+    margin-bottom: 4%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tt p{
+    color: black;
+    font-size: 1.5rem;
+}
+.tt div p:first-child{font-weight: bold;}
+.tt div p:last-child{font-size: 1.4rem;color: #575757;}
+.slider{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grey{
+    height: 13px;
+    width: 75%;
+    background-color: #364047;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.yellow{
+    height: 7px;
+    width: 60%;
+    background-color: #F4C73F;
+    border-radius: 8px;
+}
+.taptap{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taptap button{
+    width: 45%;
+    height: 80%;
+    border-radius: 40px;
+}
+.taptap img{
+    width: 40%;
+    height: 40%;
+}
+.reserve img{transform: scaleX(-1);}
+.section5{
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s5cont{
+    width: 88%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.s51{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l51{
+    width: 45%;
+    height: 95%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l51container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.l51container h3{
+    font-weight: normal;
+    font-size: 3rem;
+}
+.l51container h4{
+    color: #A5A5A5;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+}
+.l51container p{
+    color: #151515;
+    font-size: 1.8rem;
+}
+.name, .number, .email, .Request{
+    border: #D7D7D7 1px solid; 
+    border-radius: 20px;
+    width: 100%;
+    padding-left: 3%;
+}
+.name, .email{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+}
+.number{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.numbercountry{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbercountry img{width: 30%;height: auto;}
+.numbercountry button{
+    height: 100%;
+    border: none;
+    width: 35%;
+    background-color: white;
+    font-size: 1.3rem;
+}
+.numberline{
+    width: 2px;
+    height: 100%;
+    background-color: #D7D7D7;
+}
+.Request{
+    height: 25%;
+    padding-top: 3%;
+}
+.dd{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+.dd button{
+    height: 48%;
+    width: 8.7%;
+    background-color: white;
+    border: #D7D7D7 1px solid;
+    border-radius: 10px;
+}
+.dd a{
+    color: #F4C73F;
+}
+.sendMes{
+    width: 100%;
+    height: 10%;
+    border:none;
+    background-color: #F4C73F;
+    border-radius: 35px;
+    font-size: 1.5rem;
+
+}
+.r51{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.r51txt{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.r51txt h2{
+    font-weight: normal;
+    font-size: 5rem;
+}
+.r51txt p{
+    color: #444444;
+    font-size: 1.9rem;
+}
+.spisok{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inf, .infcl{
+    width: 47%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+}
+.inf h3, .infcl h3{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.inf div img, .infcl div img{
+    width: 2vw;
+    height: 3.5vh;
+}
+.inf div, .infcl div{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+.inf div p, .infcl div p{
+    color: #444444;
+    font-size: 1.65rem;
+}
+.infcl{height: 60%;}
+.infcl .clm{
+    flex-direction: column;
+    height: 100%;
+}
+.s52{
+    width: 100%;
+    height: 48%;
+    background-image: url(kartinki/karta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s52container{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    align-items: end;
+}
+.information{
+    width: 45%;
+    height: 23%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+}
+.infleft{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infleft div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.infleft h3{font-weight: normal;font-size: 1.4rem;}
+.infleft p, .infright p{
+    color: #444444;
+    font-size: 1.2rem;
+}
+.infleft img{
+    height: 100%;
+    width: auto;
+}
+.infright img{height: 70%;width: auto;}
+.infright p{font-size: 1.4rem;}
+.infright{
+    width: 40%;
+    height: 40%;
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    gap:5%;
+    border: #575757 1px solid;
+    border-radius: 25px;
+}
+.section6{
+    width: 100vw;
+    height: 100vh;
+    background-color: #01101D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s6cont{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.s6top p{
+    color: #FDFDFD;
+    font-size: 1.9rem;
+}
+.s6top h2{color: #FDFDFD;}
+.s6niz{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s6toptxt, .s6txt{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s6niz p{font-size: 2.4rem;}
+.s6toptxt h4{
+    color: #EDEDED;
+    font-size: 1.2rem;
+}
+.s6toptxt div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.s6txt p:first-child{color: #A5A5A5;}
+.section7{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s7cont{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.s7txt{align-self: flex-start;}
+.s7txt h2{font-weight:normal;font-size: 4.8rem;}
+.s7txt p{color: #151515;}
+.s7cards{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s7crd{
+    height: 100%;
+    width: 32.5%;
+    border:#EDEDED 1px solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.s7crd div:first-child{
+    width: 95%;
+    height: 55%;
+    border-radius: 20px;
+    background-size: cover;
+}
+.kartinka1{background-image: url(kartinki/sklad.png);}
+.kartinka2{background-image: url(kartinki/vegetables.png);}
+.kartinka3{background-image: url(kartinki/table.png);}
+.s7crd div:last-child{
+    width: 95%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s7crd div h4{
+    font-weight: normal;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+}
+.s7crd div p{
+    color: #151515;
+    font-size: 1.8rem;
+}
+.s7cont button{
+    background-color: #F4C73F;
+    font-size: 1.5rem;
+    width: 6.8em;
+    height: 2.8em;
+    border: none;
+    border-radius: 30px;
+}
+footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #01101D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ftop{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ftop div{width: 30%;height: 60%;}
+.ftext h2{
+    color: white;
+    font-weight: normal;
+    font-size: 3.3rem;
+}
+.ftext{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+.fspisok{
+    display: flex;
+    justify-content: end;
+}
+.fspisok ul{
+    height: 100%;
+    width: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fspisok ul li a{
+    text-decoration: none;
+    color: #D7D7D7;
+    font-size: 1.7rem;
+}
+.messangers{
+    display: flex;
+    justify-content: end;
+}
+.messangers .mescont{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.messangers p{font-size: 1.7rem;}
+.mescont div{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mescont div img{
+    height: 100%;
+    width: auto;
+}
+.ftext button{display: flex;align-items: center; justify-content: center;gap: 10%;}
+.umnienadpisi{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.umnienadpisi p{font-size: 1.5rem;}
+.footerline{
+    height: 1px;
+    width: 80%;
+    background-color: #242424;
+}
+.footerkartinka{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.footerkartinka img{
+    width: 100%;
+    height: auto;
 }
