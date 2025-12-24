@@ -80,7 +80,7 @@ nav button, .RS{
     align-items: center;
     text-align: center;
 }
-nav h2{
+.section1 h2{
     font-style: italic;
     font-weight: normal;
     color: #F9E68E;
@@ -456,6 +456,24 @@ p{
     align-items: center;
     gap: 2%;
 }
+.phonenumber{
+    width: 80%;
+    height: 100%;
+}
+.phonenumber input, .email input, .name input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    border: none;
+}
+.Request textarea{
+    font-size: 1.1rem;
+    max-width: 95%;
+    width: 95%;
+    border: none;
+    height: 30%;
+    max-height: 100%;
+}
 .numbercountry{
     width: 15%;
     height: 100%;
@@ -487,12 +505,9 @@ p{
     align-items: center;
     gap: 4%;
 }
-.dd button{
+.dd input{
     height: 48%;
     width: 8.7%;
-    background-color: white;
-    border: #D7D7D7 1px solid;
-    border-radius: 10px;
 }
 .dd a{
     color: #F4C73F;
@@ -569,13 +584,19 @@ p{
 .s52{
     width: 100%;
     height: 48%;
-    background-image: url(kartinki/karta.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.s52 iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+position: absolute;
+z-index: -1;
+pointer-events: auto;
 }
 .s52container{
     width: 95%;
