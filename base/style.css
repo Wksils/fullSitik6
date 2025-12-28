@@ -3,6 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter_18pt-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Lora';
+    src: url(fonts/Lora-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url(fonts/CormorantGaramond-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url(fonts/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Sneaky';
+    src: url(fonts/Sneaky-Times.otf);
+}
+.section1 button, .section3 button, .section5 button{
+    font-family: 'Manrope', sans-serif;
+}
+h2, h1,.l51container h3, .inf h3, .section6 p, .section7 p{
+    font-family: 'CormorantGaramond', sans-serif;
+}
+a, p, .namePrice h3, .infleft h3, h4,.section7 button, footer button{
+    font-family: 'Lora', sans-serif;
+}
+nav p{font-family: 'Inter', sans-serif;}
 .section1{
     background-image: url(kartinki/s1background.png);
     background-repeat: no-repeat;
@@ -88,11 +118,11 @@ nav button, .RS{
 }
 .s1cont h1{
     font-weight: normal;
-    font-size: 8.5rem;
+    font-size: 9.5rem;
     line-height: 1;
 }
 p{
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     color: #EDEDED;
 }
 .s1cont button:first-child{
@@ -152,7 +182,7 @@ p{
     color: #F4C73F;
     font-size: 3.5rem;
 }
-.text p{font-size: 1.8rem;}
+.text p{font-size: 1.6rem;}
 .wow{
     width: 100%;
     height: 20%;
@@ -160,7 +190,7 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-.wow p{font-size: 1.6rem;}
+.wow p{font-size: 1.4rem;}
 .achievements{
     width: 18.75rem;
     height: 7.3rem;
@@ -210,7 +240,7 @@ p{
 .s3top h2, .s6top h2{font-size: 5rem; font-weight: normal;}
 .s3top p{
     color: #444444;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
 }
 .vetka{transform: scaleX(-1);}
 .s3top img, .s6top img{
@@ -235,7 +265,7 @@ p{
     align-items: center;
 }
 .eda{
-    width: 43.2rem;
+    width: 47.2rem;
     height: 12.6rem;
     display: flex;
     justify-content: space-between;
@@ -246,7 +276,7 @@ p{
     height: 100%;
 }
 .oda{
-    width: 68%;
+    width: 69%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -266,9 +296,9 @@ p{
     color: #151515;
 }
 .namePrice{
-    width: 100%;
+    width: auto;
     display: flex;
-    justify-content: space-between;
+    gap: 5%;
     align-items: center;
 }
 .namePrice h3{
@@ -278,11 +308,11 @@ p{
 .namePrice div{
     background-color: #EDEDED;
     height: 2px;
-    width: 25%;
+    width: 7.8em;
 }
 .oda p{
     color: #575757;
-    font-size: 1.6rem;
+    font-size: 1.45rem;
 }
 .section4{
     width: 100vw;
@@ -344,7 +374,7 @@ p{
 }
 .tt p{
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .tt div p:first-child{font-weight: bold;}
 .tt div p:last-child{font-size: 1.4rem;color: #575757;}
@@ -435,7 +465,7 @@ p{
 }
 .l51container p{
     color: #151515;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 .name, .number, .email, .Request{
     border: #D7D7D7 1px solid; 
@@ -526,7 +556,7 @@ p{
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 4%;
+    gap: 13%;
 }
 .r51txt{
     width: 100%;
@@ -537,11 +567,11 @@ p{
 }
 .r51txt h2{
     font-weight: normal;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 .r51txt p{
     color: #444444;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
 }
 .spisok{
     width: 100%;
@@ -638,7 +668,7 @@ pointer-events: auto;
     width: auto;
 }
 .infright img{height: 70%;width: auto;}
-.infright p{font-size: 1.4rem;}
+.infright p{font-size: 1.2rem;}
 .infright{
     width: 40%;
     height: 40%;
@@ -687,7 +717,7 @@ pointer-events: auto;
 .s6niz p{font-size: 2.4rem;}
 .s6toptxt h4{
     color: #EDEDED;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .s6toptxt div {
     height: 100%;
@@ -712,7 +742,11 @@ pointer-events: auto;
     align-items: center;
 }
 .s7txt{align-self: flex-start;}
-.s7txt h2{font-weight:normal;font-size: 4.8rem;}
+.s7txt h2{
+    font-weight:normal;
+    font-size: 4.8rem;
+    font-family: 'Sneaky', sans-serif;
+}
 .s7txt p{color: #151515;}
 .s7cards{
     width: 100%;
@@ -749,7 +783,7 @@ pointer-events: auto;
 }
 .s7crd div h4{
     font-weight: normal;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 0.1em;
 }
 .s7crd div p{
